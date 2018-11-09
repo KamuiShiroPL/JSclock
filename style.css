@@ -47,5 +47,5 @@ body {
   transform-origin: 100%; /* hand goes around from the cental point*/
   transform: rotate(90deg);
   transition: all 0.05s; /* subtle hand movement*/
-  transition-timing-function: ease-in-out;
+  transition-timing-function: cubic-bezier(.4,2.08,.55,.44);
 }
